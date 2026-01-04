@@ -1,5 +1,7 @@
 # Simple Roleplay Actions
 A lightweight FiveM roleplay actions resource providing 3D overhead /me and /do text with optional chat integration, proximity rendering, and built-in spam protection.
+> Note: A more advanced variant with additional features (NUI, Discord profile support, and extended customization).
+> See: https://github.com/chillnook/AdvancedRoleplayActions
 
 ## Features
 - **3D Roleplay Actions:** `/me` and `/do` displayed above players.
@@ -57,8 +59,6 @@ Core configuration options defined in `config.lua`:
 1. Place the resource folder into your `resources` directory.
 2. Add `ensure simple-rp-actions` to your `server.cfg`.
 3. Configure options in `config.lua` as needed.
-> Note: A more advanced variant with additional features (NUI, Discord profile support, and extended customization) is coming very soon.
-> See: https://github.com/chillnook/AdvancedRoleplayActions
 
 ## Permissions
 Admins may bypass spam limits using the following ACE permission:
